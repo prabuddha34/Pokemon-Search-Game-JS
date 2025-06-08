@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(255, 0, 195);
+    display: flex;
+    background: linear-gradient(135deg, #c471ed, #f64f59);
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Full screen height */
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px; /* space between elements */
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#buttonPokemon {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: monospace;
+    font-size: 2.2em;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#name {
+    font-size: 2.0rem;
+    font-family: monospace;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+#myh1{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
